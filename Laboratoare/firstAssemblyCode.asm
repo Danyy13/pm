@@ -25,7 +25,7 @@ main PROC
     MOV AH, 4Ch
     INT 21h
 main ENDP
-end
+end main
 
 ; Intrebari
 ; 1. A,B,C,D
