@@ -4,7 +4,7 @@ dosseg
 .data
     string db 50 dup(?)
     newString db 50 dup(?)
-    vocale db 'a', 'e', 'i', 'o', 'u'
+    vocale db "aeiou"
 .code
 new_line PROC
     MOV AH, 2
